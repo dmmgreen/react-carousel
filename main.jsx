@@ -15,6 +15,6 @@ var slides = [{
 }];
 
 ReactDOM.render(
-    <Slider slides={slides}/>,
+    <Slider slides={slides} time={'2000'}/>,
     document.getElementById('app')
 );
